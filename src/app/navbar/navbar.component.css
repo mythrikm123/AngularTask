@@ -1,0 +1,40 @@
+.top-nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-nav li {
+    margin-right: 20px; 
+}
+
+.top-nav li:last-child {
+    margin-right: 0;  
+}
+
+.top-nav li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.top-nav li a:hover {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+.top-nav .contact-info p {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}

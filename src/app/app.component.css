@@ -1,0 +1,18 @@
+ /* app.component.scss */
+
+.container {
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 120px;
+  }
+  
+  .content-layout {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  

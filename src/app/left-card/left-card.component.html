@@ -1,0 +1,19 @@
+<div class="left-card">
+    <div class="overlay"></div>
+    <div class="card-image"></div>
+    <div class="card-content">
+      <h2>{{ slides[currentSlide - 1].title }}</h2>
+      <p>{{ slides[currentSlide - 1].description }}</p>
+      <div class="button-container">
+        <button>Book Now</button>
+        <button class="read-more">Read more</button>
+      </div>
+      
+      <div class="circle-container">
+        <div *ngFor="let slide of slides; let i = index" 
+             [class.selected]="currentSlide === i + 1" 
+             class="circle-icon" 
+             (click)="changeSlide(i + 1)"></div>
+      </div>
+  </div>
+</div>
